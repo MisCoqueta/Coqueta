@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <!-- Viewport: Esencial para diseño responsivo y seguridad en móviles -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Metas de Seguridad -->
+    <!-- Fuerza a los navegadores a usar conexiones seguras (HTTPS) -->
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <!-- Evita que el navegador envíe información de referencia a sitios no seguros -->
+    <meta name="referrer" content="no-referrer-when-downgrade">
+    
+    <title>Coqueta - Catálogo</title>
+    
+    <!-- Metas descriptivas para SEO y contexto -->
+    <meta name="description" content="Catálogo de lencería Coqueta. Diseños que resaltan la feminidad, confianza y estilo propio con comodidad y sensualidad.">
+    <meta name="author" content="Coqueta Lencería">
+    
+    <!-- Importación de la fuente Roboto desde Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    
+    <!-- Enlace a la hoja de estilos CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <div class="brand-name">Coqueta</div>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="contacto.html">Contacto</a>
+            <!-- Atributos de seguridad para enlaces de descarga -->
+            <a href="documentos/PreciosCoqueta.xlsx" download="PreciosCoqueta.xlsx" rel="noopener noreferrer">Precios</a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- ===== SECCIÓN DE INICIO ===== -->
+        <section id="inicio" class="section-content">
+            <h2>Coqueta</h2>
+            <div class="intro-container">
+                <div class="intro-text">
+                    <p>
+                        Una marca de lencería que resalta la feminidad, la confianza y el estilo propio. Creamos piezas delicadas y elegantes que combinan comodidad con sensualidad, para que te sientas única en cada momento.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <hr>
+
+        <!-- ===== SECCIÓN DE PRODUCTOS ===== -->
+        <section id="productos" class="section-content">
+            <h2>Productos</h2>
+            <div id="product-grid"></div>
+        </section>
+        <hr>
+
+        <!-- ===== SECCIÓN DE DESCARGA DE LISTA DE PRECIOS ===== -->
+        <section id="catalogo-download" class="section-content text-center">
+            <h2>Descargar Lista de Precios</h2>
+            <div class="download-buttons-container">
+                 <!-- Atributos de seguridad para enlaces de descarga -->
+                <a href="documentos/PreciosCoqueta.xlsx" class="download-button" download="PreciosCoqueta.xlsx" rel="noopener noreferrer">Descargar</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-links">
+            <a href="#" target="_blank" rel="noopener noreferrer">Instagram</a>
+        </div>
+        <!-- Pie de página con derechos reservados -->
+        <div class="copyright">
+            &copy; 2024 - <span id="current-year"></span> Coqueta Lencería. Todos los derechos reservados.
+        </div>
+    </footer>
+    
+    <!-- Enlace al archivo JavaScript que carga los productos -->
+    <script src="productos.js"></script>
+    <!-- Script para actualizar el año del copyright automáticamente -->
+    <script>
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+    </script>
+
+</body>
+</html>
