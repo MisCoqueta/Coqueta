@@ -291,5 +291,5 @@ footer {
     height: 250px; /* Alto de la imagen (igual al ancho para un círculo perfecto) */
     border-radius: 50%; /* Esto es lo que la hace completamente redonda */
     object-fit: cover; /* Asegura que la imagen cubra el espacio sin deformarse */
-    border: 3px solid #444; /* Un borde sutil que combina con el tema */
 }
+
