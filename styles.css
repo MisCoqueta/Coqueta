@@ -4,7 +4,6 @@
     box-sizing: border-box;
 }
 
-/* Estilos generales para el cuerpo de la página */
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #000000;
@@ -12,7 +11,6 @@ body {
     font-size: 13.33px;
 }
 
-/* Estilos para el encabezado */
 header {
     background-color: #222222;
     padding: 20px 40px;
@@ -26,7 +24,6 @@ header {
     font-weight: bold;
 }
 
-/* Estilos para la barra de navegación */
 nav a {
     color: #ffffff;
     text-decoration: none;
@@ -52,12 +49,10 @@ nav a:hover::after {
     width: 100%;
 }
 
-/* Contenido Principal */
 main {
     padding: 40px;
 }
 
-/* --- ESTILOS PARA LAS SECCIONES DE CONTENIDO --- */
 .section-content {
     padding-bottom: 60px;
 }
@@ -74,20 +69,18 @@ main {
     line-height: 1.7;
 }
 
-/* --- ESTILOS CORREGIDOS PARA LA SECCIÓN DE INICIO --- */
 .intro-container {
     display: flex;
     align-items: center;
-    justify-content: center; /* Centra los elementos horizontalmente */
-    gap: 60px;               /* Espacio entre texto e imagen */
-    max-width: 960px;        /* Ancho máximo para la sección */
-    margin: 0 auto;          /* Centra el contenedor en la página */
-    flex-wrap: wrap;         /* Permite que los elementos se apilen en pantallas pequeñas */
+    justify-content: center;
+    gap: 60px;
+    max-width: 960px;
+    margin: 0 auto;
+    flex-wrap: wrap;
 }
 
 .intro-text {
-    /* Se elimina flex: 1; para que el texto no se expanda */
-    max-width: 500px; /* Ancho máximo para el párrafo */
+    max-width: 500px;
 }
 
 .intro-image img {
@@ -97,8 +90,6 @@ main {
     object-fit: cover;
 }
 
-
-/* --- ESTILOS PARA LA LÍNEA DIVISORIA --- */
 hr {
     border: 0;
     height: 1px;
@@ -106,7 +97,6 @@ hr {
     margin: 40px 0;
 }
 
-/* --- ESTILOS PARA LA SECCIÓN DE DESCARGA --- */
 .text-center {
     text-align: center;
 }
@@ -138,7 +128,6 @@ hr {
     color: #000000;
 }
 
-/* --- ESTILOS PARA LA SECCIÓN DE PRODUCTOS --- */
 #product-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -191,7 +180,6 @@ hr {
     line-height: 1.5;
 }
 
-/* --- ESTILOS PARA EL PIE DE PÁGINA (UNIFICADOS) --- */
 footer {
     background-color: #222222;
     padding: 20px;
@@ -225,18 +213,12 @@ footer a:hover {
     color: #aaa;
 }
 
-/* ======================================================= */
-/* --- MEDIA QUERIES PARA RESPONSIVIDAD --- */
-/* ======================================================= */
-
-/* Para tablets (hasta 992px) */
 @media (max-width: 992px) {
     #product-grid {
         grid-template-columns: repeat(2, 1fr);
     }
 }
 
-/* Para tablets pequeñas y móviles grandes (hasta 768px) */
 @media (max-width: 768px) {
     body {
         font-size: 14px;
@@ -275,7 +257,6 @@ footer a:hover {
     }
 }
 
-/* Para móviles (hasta 576px) */
 @media (max-width: 576px) {
     #product-grid {
         grid-template-columns: 1fr;
