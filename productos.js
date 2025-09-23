@@ -5,6 +5,11 @@ document.addEventListener('DOMContentLoaded', function() {
     // Solo necesitas la ruta de la imagen, el nombre y la descripción.
     const productos = [
         {
+            imagen: 'catalogo/tiraReg.png',
+            nombre: 'Colaless Tira Regulable "Bretel Ancho"',
+            descripcion: 'Art: 305 T.V'
+        },
+        {
             imagen: 'catalogo/colalessClasica.png',
             nombre: 'Colaless Clasica',
             descripcion: 'Art: 400 T2, 400.3 T3, 400.4 T4'
@@ -108,4 +113,5 @@ document.addEventListener('DOMContentLoaded', function() {
 
         productGrid.appendChild(card);
     });
+
 });
