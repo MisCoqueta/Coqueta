@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Solo necesitas la ruta de la imagen, el nombre y la descripción.
     const productos = [
         {
-            imagen: 'catalogo/tiraReg.jpg',
+            imagen: 'catalogo/tiraReg.png',
             nombre: 'Colaless Tira Regulable "Bretel Ancho"',
             descripcion: 'Art: 305 T.V'
         },
@@ -115,4 +115,5 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
 });
+
 
