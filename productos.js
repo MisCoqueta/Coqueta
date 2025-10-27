@@ -6,22 +6,22 @@ document.addEventListener('DOMContentLoaded', function() {
     const productos = [
         //Especial rosa
         {
-            imagen: 'catalogo/universalcp.png',
+            imagen: 'catalogo/universalcp.jpg',
             nombre: 'Universal Con Puntilla Rosa"',
             descripcion: 'Art: 803R TU'
         },
         {
-            imagen: 'catalogo/vedettinacprosa.png',
+            imagen: 'catalogo/vedettinacprosa.jpg',
             nombre: 'Vedettina Con Puntilla Rosa"',
             descripcion: 'Art: 503R T3'
         },
         {
-            imagen: 'catalogo/colalessespecialcprosa.png',
+            imagen: 'catalogo/colalessespecialcprosa.jpg',
             nombre: 'Colaless Especial Con Puntilla Rosa"',
             descripcion: 'Art: 403.6R TE'
         },
         {
-            imagen: 'catalogo/colalesscprosa.png',
+            imagen: 'catalogo/colalesscprosa.jpg',
             nombre: 'Colaless Con Puntilla Rosa"',
             descripcion: 'Art: 403.2R T2, 403.3R T3'
         },
@@ -137,6 +137,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
 });
+
 
 
 
