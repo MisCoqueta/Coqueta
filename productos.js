@@ -4,10 +4,32 @@ document.addEventListener('DOMContentLoaded', function() {
     // Aquí puedes añadir todos los productos que quieras.
     // Solo necesitas la ruta de la imagen, el nombre y la descripción.
     const productos = [
+        //Especial rosa
+        {
+            imagen: 'catalogo/tiraReg.png',
+            nombre: 'Universal Con Puntilla Rosa"',
+            descripcion: 'Art: 803R TU'
+        },
+        {
+            imagen: 'catalogo/tiraReg.png',
+            nombre: 'Vedettina Con Puntilla Rosa"',
+            descripcion: 'Art: 503R T3'
+        },
+        {
+            imagen: 'catalogo/colalesscprosa.png',
+            nombre: 'Colaless Especial Con Puntilla Rosa"',
+            descripcion: 'Art: 403.6R TE'
+        },
+        {
+            imagen: 'catalogo/colalesscprosa.png',
+            nombre: 'Colaless Con Puntilla Rosa"',
+            descripcion: 'Art: 403.2R T2, 403.3R T3'
+        },
+        // resto
         {
             imagen: 'catalogo/tiraReg.png',
             nombre: 'Colaless Tira Regulable "Bretel Ancho"',
-            descripcion: 'Art: 305 T.V'
+            descripcion: 'Art: 305 TV'
         },
         {
             imagen: 'catalogo/colalessClasica.png',
@@ -22,7 +44,7 @@ document.addEventListener('DOMContentLoaded', function() {
         {
             imagen: 'catalogo/colalessE.png',
             nombre: 'Colaless Especial',
-            descripcion: 'Art: 406 T:E'
+            descripcion: 'Art: 406 TE'
         },
         {
             imagen: 'catalogo/vedettinaClasica.png',
@@ -37,7 +59,7 @@ document.addEventListener('DOMContentLoaded', function() {
         {
             imagen: 'catalogo/especialCavada.png',
             nombre: 'Especial Cavada',
-            descripcion: 'Art: 506 T:E'
+            descripcion: 'Art: 506 TE'
         },
         {
             imagen: 'catalogo/vedettinaDeportiva.png',
@@ -47,7 +69,7 @@ document.addEventListener('DOMContentLoaded', function() {
         {
             imagen: 'catalogo/tiroCortoClasico.png',
             nombre: 'Tiro Corto Clasico',
-            descripcion: 'Art: 800 T:U'
+            descripcion: 'Art: 800 TU'
         },
         {
             imagen: 'catalogo/culottLess.png',
@@ -57,7 +79,7 @@ document.addEventListener('DOMContentLoaded', function() {
         {
             imagen: 'catalogo/universalCP.png',
             nombre: 'Universal Con Puntilla',
-            descripcion: 'Art: 803 T:U'
+            descripcion: 'Art: 803 TU'
         },
         {
             imagen: 'catalogo/shortDeportivo.png',
@@ -72,27 +94,27 @@ document.addEventListener('DOMContentLoaded', function() {
         {
             imagen: 'catalogo/bombachonCFEspecial.png',
             nombre: 'Bombachon Con Faja Especial',
-            descripcion: 'Art: 606 T:E'
+            descripcion: 'Art: 606 TE'
         },
         {
             imagen: 'catalogo/especialClasica.png',
             nombre: 'Especial Clasica',
-            descripcion: 'Art: 900 T:E'
+            descripcion: 'Art: 900 TE'
         },
         {
             imagen: 'catalogo/shortDepEspecial.png',
             nombre: 'Short Deportivo Especial',
-            descripcion: 'Art: 706 T:E'
+            descripcion: 'Art: 706 TE'
         },
         {
             imagen: 'catalogo/boxerHDep.png',
             nombre: 'Boxer Hombre C/Elastico Deportivo',
-            descripcion: 'Art: 2001 T:S-M-L-XL'
+            descripcion: 'Art: 2001 TS-M-L-XL'
         },
         {
             imagen: 'catalogo/bombachaNenaCapybara.png',
             nombre: 'Bombacha Nena Capybara',
-            descripcion: 'Art: 201.3 T:1-2-3'
+            descripcion: 'Art: 201.3 T1-2-3'
         }
     ];
 
@@ -115,5 +137,6 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
 });
+
 
 
