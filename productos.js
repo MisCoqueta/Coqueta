@@ -27,6 +27,11 @@ document.addEventListener('DOMContentLoaded', function() {
         },
         // resto
         {
+            imagen: 'catalogo/colalesstiraregAlgLy.png',
+            nombre: 'Colaless Tira Regulable',
+            descripcion: 'Art: 300 TV'
+        },
+        {
             imagen: 'catalogo/tiraReg.png',
             nombre: 'Colaless Tira Regulable "Bretel Ancho"',
             descripcion: 'Art: 305 TV'
@@ -137,6 +142,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
 });
+
 
 
 
