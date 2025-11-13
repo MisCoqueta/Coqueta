@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', function() {
         },
         // resto
         {
-            imagen: 'catalogo/colalesstiraregAlgLy.png',
+            imagen: 'catalogo/colalesstiraregAlgLy.PNG',
             nombre: 'Colaless Tira Regulable',
             descripcion: 'Art: 300 TV'
         },
@@ -142,6 +142,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
 });
+
 
 
 
