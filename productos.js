@@ -31,6 +31,11 @@ document.addEventListener('DOMContentLoaded', function() {
             nombre: 'Colaless Tira Regulable',
             descripcion: 'Art: 300 TV'
         },
+         {
+            imagen: 'catalogo/ColalesstTiraRegFP.jpg',
+            nombre: 'Colaless Tira Regulable Frente Puntilla',
+            descripcion: 'Art: 301 TV'
+        },
         {
             imagen: 'catalogo/tiraReg.png',
             nombre: 'Colaless Tira Regulable "Bretel Ancho"',
@@ -142,6 +147,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
 });
+
 
 
 
