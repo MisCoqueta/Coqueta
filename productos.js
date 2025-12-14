@@ -7,25 +7,9 @@ document.addEventListener('DOMContentLoaded', function() {
         //Especial rosa
         {
             imagen: 'catalogo/universalcp.jpg',
-            nombre: 'Universal Con Puntilla Rosa"',
-            descripcion: 'Art: 803R TU'
+            nombre: 'Bombacha Juvenil Con estampa Alg.ly',
+            descripcion: 'Art: 205 T5'
         },
-        {
-            imagen: 'catalogo/vedettinacprosa.jpg',
-            nombre: 'Vedettina Con Puntilla Rosa"',
-            descripcion: 'Art: 503R T3'
-        },
-        {
-            imagen: 'catalogo/colalessespecialcprosa.jpg',
-            nombre: 'Colaless Especial Con Puntilla Rosa"',
-            descripcion: 'Art: 403.6R TE'
-        },
-        {
-            imagen: 'catalogo/colalesscprosa.jpg',
-            nombre: 'Colaless Con Puntilla Rosa"',
-            descripcion: 'Art: 403.2R T2, 403.3R T3'
-        },
-        // resto
         {
             imagen: 'catalogo/colalesstiraregAlgLy.PNG',
             nombre: 'Colaless Tira Regulable',
@@ -147,6 +131,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
 });
+
 
 
 
