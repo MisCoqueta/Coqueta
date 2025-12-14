@@ -6,11 +6,6 @@ document.addEventListener('DOMContentLoaded', function() {
     const productos = [
         //Especial rosa
         {
-            imagen: 'catalogo/universalcp.jpg',
-            nombre: 'Bombacha Juvenil Con estampa Alg.ly',
-            descripcion: 'Art: 205 T5'
-        },
-        {
             imagen: 'catalogo/colalesstiraregAlgLy.PNG',
             nombre: 'Colaless Tira Regulable',
             descripcion: 'Art: 300 TV'
@@ -109,6 +104,11 @@ document.addEventListener('DOMContentLoaded', function() {
             imagen: 'catalogo/bombachaNenaCapybara.png',
             nombre: 'Bombacha Nena Capybara',
             descripcion: 'Art: 201.3 T1-2-3'
+        },
+        {
+            imagen: 'catalogo/bombachajuvenil.PNG',
+            nombre: 'Bombacha Juvenil Con estampa Alg.ly',
+            descripcion: 'Art: 205 T5'
         }
     ];
 
@@ -131,6 +131,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
 });
+
 
 
 
