@@ -101,8 +101,8 @@ document.addEventListener('DOMContentLoaded', function() {
             descripcion: 'Art: 2001 TS-M-L-XL'
         },
         {
-            imagen: 'catalogo/bombachaNenaCapybara.png',
-            nombre: 'Bombacha Nena Capybara',
+            imagen: 'catalogo/bombachaNena.PNG',
+            nombre: 'Bombacha Nena Gatitos/Capybara',
             descripcion: 'Art: 201.3 T1-2-3'
         },
         {
@@ -131,6 +131,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
 });
+
 
 
 
