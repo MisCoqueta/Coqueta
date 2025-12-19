@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function() {
             descripcion: 'Art: 301 TV'
         },
         {
-            imagen: 'catalogo/ColalesstTiraRegPD.png',
+            imagen: 'catalogo/colalesstTiraRegPD.PNG',
             nombre: 'Colaless Tira Regulable Frente Puntilla Diagonal',
             descripcion: 'Art: 303 TV'
         },
@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', function() {
             descripcion: 'Art: 305 TV'
         },
         {
-            imagen: 'catalogo/colalessClasica.png',
+            imagen: 'catalogo/colalessClasicaCM.PNG',
             nombre: 'Colaless Clasica C/Moño',
             descripcion: 'Art: 400 T2, 400.3 T3, 400.4 T4'
         },
@@ -41,7 +41,7 @@ document.addEventListener('DOMContentLoaded', function() {
             descripcion: 'Art: 406 TE'
         },
         {
-            imagen: 'catalogo/vedettinaClasica.png',
+            imagen: 'catalogo/vedettinaClasicaCM.PNG',
             nombre: 'Vedettina Clasica C/Moño',
             descripcion: 'Art: 500 T2, 500.3 T3, 500.4 T4'
         },
@@ -136,6 +136,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
 });
+
 
 
 
