@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', function() {
         },
         {
             imagen: 'catalogo/colalessClasica.png',
-            nombre: 'Colaless Clasica',
+            nombre: 'Colaless Clasica C/Moño',
             descripcion: 'Art: 400 T2, 400.3 T3, 400.4 T4'
         },
         {
@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded', function() {
         },
         {
             imagen: 'catalogo/vedettinaClasica.png',
-            nombre: 'Vedettina Clasica',
+            nombre: 'Vedettina Clasica C/Moño',
             descripcion: 'Art: 500 T2, 500.3 T3, 500.4 T4'
         },
         {
@@ -131,6 +131,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
 });
+
 
 
 
