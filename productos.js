@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function() {
             descripcion: 'Art: 301 TV'
         },
         {
-            imagen: 'catalogo/colalesstTiraRegPD.png',
+            imagen: 'catalogo/colalessTiraRegPD.PNG',
             nombre: 'Colaless Tira Regulable Frente Puntilla Diagonal',
             descripcion: 'Art: 303 TV'
         },
@@ -136,6 +136,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
 });
+
 
 
 
