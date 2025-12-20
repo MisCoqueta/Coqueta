@@ -111,7 +111,7 @@ document.addEventListener('DOMContentLoaded', function() {
             descripcion: 'Art: 201.3 T1-2-3'
         },
         {
-            imagen: 'catalogo/bombachajuvenil.PNG',
+            imagen: 'catalogo/juvenil.PNG',
             nombre: 'Bombacha Juvenil Con estampa Alg.ly',
             descripcion: 'Art: 205 T5'
         }
@@ -136,6 +136,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
 });
+
 
 
 
