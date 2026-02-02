@@ -4,23 +4,23 @@ document.addEventListener('DOMContentLoaded', function() {
     const colegial = [
         {
             imagen: 'catalogo/conjuntoColegial.jpg',
-            nombre: '-',
-            descripcion: 'Art: - T1-2-3'
+            nombre: 'Conjunto Nena Colegial',
+            descripcion: 'Art: 1203 T3, 1204 T4'
         },
         {
             imagen: 'catalogo/colegial1.jpg',
-            nombre: '-',
-            descripcion: 'Art: - T1-2-3'
+            nombre: 'Bombacha Nena c/Moño Lisa',
+            descripcion: 'Art: 200 - T2-3-4'
         },
         {
             imagen: 'catalogo/colegial2.jpg',
-            nombre: 'Bombacha Juvenil Con estampa Alg.ly',
-            descripcion: 'Art: - T1-2-3'
+            nombre: 'Bombacha Juvenil c/Moño Lisa',
+            descripcion: 'Art: 206 - T5'
         },
         {
             imagen: 'catalogo/corpDeportivo.png',
-            nombre: '-',
-            descripcion: 'Art: 103 T3, 104 T4, 105 T5'
+            nombre: 'Corpiño Colegial Deportivo',
+            descripcion: 'Art: 103 T3, 104 T4'
         }
         
     ];
@@ -165,4 +165,5 @@ document.addEventListener('DOMContentLoaded', function() {
     renderProductos(productos, 'product-grid');
 
 });
+
 
