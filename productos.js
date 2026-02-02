@@ -3,16 +3,28 @@ document.addEventListener('DOMContentLoaded', function() {
     // --- COLECCIÓN COLEGIAL 2026 ---
     const colegial = [
         {
-            imagen: 'catalogo/bombachaNena.png',
-            nombre: 'Bombacha Nena Gatitos/Capybara',
-            descripcion: 'Art: 201.3 T1-2-3'
+            imagen: 'catalogo/conjuntoColegial.jpg',
+            nombre: '-',
+            descripcion: 'Art: - T1-2-3'
         },
         {
-            imagen: 'catalogo/juvenil.PNG',
+            imagen: 'catalogo/colegial1.jpg',
+            nombre: '-',
+            descripcion: 'Art: - T1-2-3'
+        },
+        {
+            imagen: 'catalogo/colegial2.jpg',
             nombre: 'Bombacha Juvenil Con estampa Alg.ly',
-            descripcion: 'Art: 205 T5'
+            descripcion: 'Art: - T1-2-3'
+        },
+        {
+            imagen: 'catalogo/corpDeportivo.png',
+            nombre: '-',
+            descripcion: 'Art: 103 T3, 104 T4, 105 T5'
         }
+        
     ];
+    
 
     // --- LISTA GENERAL DE PRODUCTOS ---
     const productos = [
@@ -153,3 +165,4 @@ document.addEventListener('DOMContentLoaded', function() {
     renderProductos(productos, 'product-grid');
 
 });
+
