@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
 
-//colegial
+    // --- COLECCIÓN COLEGIAL 2026 ---
     const colegial = [
         {
             imagen: 'catalogo/bombachaNena.png',
@@ -13,17 +13,15 @@ document.addEventListener('DOMContentLoaded', function() {
             descripcion: 'Art: 205 T5'
         }
     ];
-    // --- LISTA DE PRODUCTOS ---
-    // Aquí puedes añadir todos los productos que quieras.
-    // Solo necesitas la ruta de la imagen, el nombre y la descripción.
+
+    // --- LISTA GENERAL DE PRODUCTOS ---
     const productos = [
-        //Especial rosa
         {
             imagen: 'catalogo/colalesstiraregAlgLy.PNG',
             nombre: 'Colaless Tira Regulable',
             descripcion: 'Art: 300 TV'
         },
-         {
+        {
             imagen: 'catalogo/ColalesstTiraRegFP.png',
             nombre: 'Colaless Tira Regulable Frente Puntilla',
             descripcion: 'Art: 301 TV'
@@ -130,45 +128,28 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     ];
 
-    const productGrid = document.getElementById('product-grid');
+    // --- FUNCIÓN PARA RENDERIZAR PRODUCTOS ---
+    function renderProductos(lista, containerId) {
+        const container = document.getElementById(containerId);
 
-    // Función para crear y añadir cada tarjeta de producto al HTML
-    productos.forEach(producto => {
-        const card = document.createElement('div');
-        card.className = 'product-card';
+        lista.forEach(producto => {
+            const card = document.createElement('div');
+            card.className = 'product-card';
 
-        card.innerHTML = `
-            <img src="${producto.imagen}" alt="${producto.nombre}">
-            <div class="product-info">
-                <p class="product-name">${producto.nombre}</p>
-                <p class="product-description">${producto.descripcion}</p>
-            </div>
-        `;
+            card.innerHTML = `
+                <img src="${producto.imagen}" alt="${producto.nombre}">
+                <div class="product-info">
+                    <p class="product-name">${producto.nombre}</p>
+                    <p class="product-description">${producto.descripcion}</p>
+                </div>
+            `;
 
-        productGrid.appendChild(card);
-    });
+            container.appendChild(card);
+        });
+    }
+
+    // --- RENDER ---
+    renderProductos(colegial, 'colegial-grid');
+    renderProductos(productos, 'product-grid');
 
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
