@@ -1,5 +1,18 @@
 document.addEventListener('DOMContentLoaded', function() {
-    
+
+//colegial
+    const colegial = [
+        {
+            imagen: 'catalogo/bombachaNena.png',
+            nombre: 'Bombacha Nena Gatitos/Capybara',
+            descripcion: 'Art: 201.3 T1-2-3'
+        },
+        {
+            imagen: 'catalogo/juvenil.PNG',
+            nombre: 'Bombacha Juvenil Con estampa Alg.ly',
+            descripcion: 'Art: 205 T5'
+        }
+    ];
     // --- LISTA DE PRODUCTOS ---
     // Aquí puedes añadir todos los productos que quieras.
     // Solo necesitas la ruta de la imagen, el nombre y la descripción.
@@ -136,6 +149,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
 });
+
 
 
 
