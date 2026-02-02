@@ -128,7 +128,7 @@ hr {
     color: #000000;
 }
 
-#product-grid {
+.product-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
@@ -270,3 +270,4 @@ footer a:hover {
         font-size: 20px;
     }
 }
+
