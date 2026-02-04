@@ -128,6 +128,10 @@ hr {
     color: #000000;
 }
 
+/* ===========================
+   PRODUCT GRID (UNIFICADO)
+   =========================== */
+
 .product-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -180,6 +184,10 @@ hr {
     line-height: 1.5;
 }
 
+/* ===========================
+   FOOTER
+   =========================== */
+
 footer {
     background-color: #222222;
     padding: 20px;
@@ -213,8 +221,12 @@ footer a:hover {
     color: #aaa;
 }
 
+/* ===========================
+   RESPONSIVE
+   =========================== */
+
 @media (max-width: 992px) {
-    #product-grid {
+    .product-grid {
         grid-template-columns: repeat(2, 1fr);
     }
 }
@@ -247,7 +259,7 @@ footer a:hover {
     .intro-container {
         text-align: center;
     }
-    
+
     .intro-image {
         margin-top: 30px;
     }
@@ -261,23 +273,12 @@ footer a:hover {
     .product-grid {
         grid-template-columns: 1fr;
     }
-}
 
-@media (max-width: 576px) {
-    #product-grid {
-        grid-template-columns: 1fr;
-    }
-}
-    
     .section-content h2 {
         font-size: 28px;
     }
-    
+
     .brand-name {
         font-size: 20px;
     }
 }
-
-
-
-
