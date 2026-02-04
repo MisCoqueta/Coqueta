@@ -234,13 +234,16 @@ footer a:hover {
 
 .promo-content {
   position: relative;
-  max-width: 90%;
-  max-height: 90%;
+  max-width: 500px;   /* límite desktop */
+  max-height: 90vh;
+  width: 90%;
 }
 
 .promo-content img {
   width: 100%;
   height: auto;
+  max-height: 90vh;
+  object-fit: contain;
   border-radius: 12px;
   display: block;
 }
@@ -330,4 +333,5 @@ footer a:hover {
         font-size: 20px;
     }
 }
+
 
