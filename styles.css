@@ -221,6 +221,54 @@ footer a:hover {
     color: #aaa;
 }
 
+/* ===== POPUP PROMO ===== */
+.promo-modal {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.promo-content {
+  position: relative;
+  max-width: 90%;
+  max-height: 90%;
+}
+
+.promo-content img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  display: block;
+}
+
+/* Botón cerrar */
+.promo-close {
+  position: absolute;
+  top: -15px;
+  right: -15px;
+  background: #000;
+  color: #fff;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  font-size: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  .promo-content {
+    max-width: 95%;
+  }
+}
+
 /* ===========================
    RESPONSIVE
    =========================== */
@@ -282,3 +330,4 @@ footer a:hover {
         font-size: 20px;
     }
 }
+
