@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // --- COLECCIÓN COLEGIAL 2026 ---
     const colegial = [
         {
-            imagen: 'catalogo/conjuntoColegial.png',
+            imagen: 'catalogo/conjColegial.png',
             nombre: 'Conjunto Nena Colegial',
             descripcion: 'Art: 1203 T3, 1204 T4'
         },
@@ -165,6 +165,7 @@ document.addEventListener('DOMContentLoaded', function() {
     renderProductos(productos, 'product-grid');
 
 });
+
 
 
 
