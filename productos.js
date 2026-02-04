@@ -3,17 +3,17 @@ document.addEventListener('DOMContentLoaded', function() {
     // --- COLECCIÓN COLEGIAL 2026 ---
     const colegial = [
         {
-            imagen: 'catalogo/conjuntoColegial.jpeg',
+            imagen: 'catalogo/conjuntoColegial.png',
             nombre: 'Conjunto Nena Colegial',
             descripcion: 'Art: 1203 T3, 1204 T4'
         },
         {
-            imagen: 'catalogo/colegial1.jpeg',
+            imagen: 'catalogo/colegial1.png',
             nombre: 'Bombacha Nena c/Moño Lisa',
             descripcion: 'Art: 200 - T2-3-4'
         },
         {
-            imagen: 'catalogo/colegial2.jpeg',
+            imagen: 'catalogo/colegial2.png',
             nombre: 'Bombacha Juvenil c/Moño Lisa',
             descripcion: 'Art: 206 - T5'
         },
@@ -165,6 +165,7 @@ document.addEventListener('DOMContentLoaded', function() {
     renderProductos(productos, 'product-grid');
 
 });
+
 
 
 
