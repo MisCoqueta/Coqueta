@@ -21,6 +21,11 @@ document.addEventListener('DOMContentLoaded', function() {
             imagen: 'catalogo/corpDeportivo.png',
             nombre: 'Corpiño Colegial Deportivo',
             descripcion: 'Art: 103 T3, 104 T4'
+        },
+        {
+            imagen: 'catalogo/shortDeportivo.png',
+            nombre: 'Short Colegial Deportivo',
+            descripcion: 'Art: 700.2 T2, 700.3 T3'
         }
         
     ];
@@ -165,6 +170,7 @@ document.addEventListener('DOMContentLoaded', function() {
     renderProductos(productos, 'product-grid');
 
 });
+
 
 
 
