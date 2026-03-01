@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <meta name="referrer" content="no-referrer-when-downgrade">
+      
+    <title>Coqueta | Lencería de Diseño</title>
+    
+    <meta name="description" content="Catálogo de lencería Coqueta. Diseños que resaltan la feminidad, confianza y estilo propio.">
+    
+    <!-- Tipografías de Alta Gama -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <link rel="icon" href="logos/logo.jpg" type="image/jpg">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="brand-group">
+            <img src="logos/logo.jpg" alt="Logo Coqueta" class="header-logo">
+            <div class="brand-name">Coqueta</div>
+        </div>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="#productos">Catálogo</a>
+            <a href="https://wa.me/5491133143989">Contacto</a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Sección Hero con Modelo (Limpia, sin marcos) -->
+        <section id="inicio" class="hero-section">
+            <div class="container hero-container">
+                <div class="hero-text">
+                    <span class="tagline">Nueva Temporada 2026</span>
+                    <h1>Elegancia hecha para vos.</h1>
+                    <p class="description">
+                        Descubrí una colección diseñada para resaltar tu feminidad con la suavidad y el estilo que merecés.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#productos" class="btn btn-primary">Ver Catálogo</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <!-- Imagen de la modelo sin fondos ni sombras adicionales -->
+                    <img src="catalogo/modelo.png" alt="Colección Coqueta" class="hero-model">
+                </div>
+            </div>
+        </section>
+
+        <!-- Colección Colegial -->
+        <section id="colegial" class="section-dark">
+            <div class="container">
+                <span class="section-subtitle">Edición Especial</span>
+                <h2>Colección Colegial</h2>
+                <div id="colegial-grid" class="product-grid"></div>
+            </div>
+        </section>
+
+        <!-- Catálogo General -->
+        <section id="productos" class="section-light">
+            <div class="container">
+                <span class="section-subtitle">Exclusivos</span>
+                <h2>Nuestros Productos</h2>
+                <div id="product-grid" class="product-grid"></div>
+            </div>
+        </section>
+
+        <!-- Llamado a la Acción Final -->
+        <section class="download-section">
+            <div class="container">
+                <h2>¿Lista para hacer tu pedido?</h2>
+                <p>Descargá nuestra lista de precios completa o consultanos directamente por WhatsApp para recibir atención personalizada.</p>
+                <div class="download-buttons-container">
+                    <a href="catalogo/ListaPreciosFebrero2026.xlsx" class="btn btn-outline" download>
+                        Descargar Excel
+                    </a>
+                    <a href="https://wa.me/5491133143989" class="btn btn-whatsapp" target="_blank" rel="noopener noreferrer">
+                        Escribir por WhatsApp
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-brand">Coqueta</div>
+            <div class="footer-links">
+                <a href="https://wa.me/5491133143989" target="_blank">Whatsapp</a>
+                <a href="index.html">Inicio</a>
+            </div>
+            <div class="copyright">
+                &copy; 2024 - <span id="current-year"></span> Coqueta Lencería. Todos los derechos reservados.
+            </div>
+        </div>
+    </footer>
+    
+    <script src="productos.js"></script>
+    <script>
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+    </script>
+
+    <!-- POPUP PROMOCIONAL -->
+    <div class="modal-overlay" id="promoModal">
+      <div class="modal">
+        <button class="modal-close" onclick="closeModal()">×</button>
+        <img src="catalogo/coquetaColegialPublicidad.png" alt="Promoción Especial">
+      </div>
+    </div>
+
+    <script>
+        function closeModal() {
+            document.getElementById("promoModal").style.display = "none";
+        }
+        window.addEventListener("load", () => {
+            setTimeout(() => {
+                document.getElementById("promoModal").style.display = "flex";
+            }, 1200);
+        });
+    </script>
+</body>
+</html>
