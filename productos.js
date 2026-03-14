@@ -119,8 +119,8 @@ document.addEventListener('DOMContentLoaded', function() {
             descripcion: 'Art: 103 T3, 104 T4, 105 T5'
         },
         {
-            imagen: 'catalogo/bombachadegorda.png',
-            nombre: 'Vedettina Con Faja',
+            imagen: 'catalogo/vedettinaEspecialConFaja.png',
+            nombre: 'Vedettina Especial Con Faja',
             descripcion: 'Art: 806 TE'
         },
         {
