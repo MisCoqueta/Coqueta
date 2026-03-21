@@ -118,11 +118,11 @@ document.addEventListener('DOMContentLoaded', function() {
             nombre: 'Corpiño Deportivo',
             descripcion: 'Art: 103 T3, 104 T4, 105 T5'
         },
-        {
+        /*{
             imagen: 'catalogo/vedettinaEspecialConFaja.png',
             nombre: 'Vedettina Especial Con Faja',
             descripcion: 'Art: 806 TE'
-        },
+        },*/
         {
             imagen: 'catalogo/bombachonCFEspecial.png',
             nombre: 'Bombachon Con Faja Especial',
