@@ -140,7 +140,7 @@ document.addEventListener('DOMContentLoaded', function() {
         },
         {
             imagen: 'catalogo/bombachaNena.PNG',
-            nombre: 'Bombacha Nena Gatitos/Capybara',
+            nombre: 'Bombacha Nena Gatitos',
             descripcion: 'Art: 201.3 T1-2-3'
         },
         {
