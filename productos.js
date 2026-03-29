@@ -139,19 +139,9 @@ document.addEventListener('DOMContentLoaded', function() {
             descripcion: 'Art: 706 TE'
         },
         {
-            imagen: 'catalogo/boxerHDep.png',
-            nombre: 'Boxer Hombre C/Elastico Deportivo',
-            descripcion: 'Art: 2001 TS-M-L-XL'
-        },
-        {
             imagen: 'catalogo/bombachaNena.png',
             nombre: 'Bombacha Nena Gatitos/Capybara',
             descripcion: 'Art: 201.3 T1-2-3'
-        },
-        {
-            imagen: 'catalogo/juvenil.PNG',
-            nombre: 'Bombacha Juvenil Con estampa Alg.ly',
-            descripcion: 'Art: 205 T5'
         }
     ];
 
