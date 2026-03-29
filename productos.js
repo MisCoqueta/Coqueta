@@ -181,7 +181,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     // --- RENDER ---
-    renderProductos(colegial, 'colegial-grid');
+   // renderProductos(colegial, 'colegial-grid');
     renderProductos(productos, 'product-grid');
 
 });
