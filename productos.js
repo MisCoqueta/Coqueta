@@ -149,7 +149,7 @@ document.addEventListener('DOMContentLoaded', function() {
             descripcion: 'Art: 1203 T3, 1204 T4'
         },
         {
-            imagen: 'catalogo/colegial1.png',
+            imagen: 'catalogo/colegial1.PNG',
             nombre: 'Bombacha Nena c/Moño Lisa',
             descripcion: 'Art: 200 - T2-3-4'
         },
