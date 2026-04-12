@@ -145,7 +145,7 @@ document.addEventListener('DOMContentLoaded', function() {
         },
         {
             imagen: 'catalogo/conjColegial.png',
-            nombre: 'Conjunto Nena Colegial',
+            nombre: 'Conjunto Nena',
             descripcion: 'Art: 1203 T3, 1204 T4'
         },
         {
