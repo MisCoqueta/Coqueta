@@ -60,7 +60,7 @@ document.addEventListener('DOMContentLoaded', function() {
         },
         {
             imagen: 'catalogo/tiraregestampado.png',
-            nombre: 'Colaless Tira Regulable Mortley Estampado "Bretel Ancho"',
+            nombre: 'Colaless Tira Regulable Morley Estampado "Bretel Ancho"',
             descripcion: 'Art: 306 TV'
         },
         {
