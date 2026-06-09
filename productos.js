@@ -59,6 +59,11 @@ document.addEventListener('DOMContentLoaded', function() {
             descripcion: 'Art: 305 TV'
         },
         {
+            imagen: 'catalogo/tiraregestampado.png',
+            nombre: 'Colaless Tira Regulable Estampado "Bretel Ancho"',
+            descripcion: 'Art: 306 TV'
+        },
+        {
             imagen: 'catalogo/colalessClasicaCM.PNG',
             nombre: 'Colaless Clasica C/Moño',
             descripcion: 'Art: 400 T2, 400.3 T3, 400.4 T4'
