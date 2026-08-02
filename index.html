@@ -78,7 +78,7 @@
                 <h2>¿Lista para hacer tu pedido?</h2>
                 <p>Descargá nuestra lista de precios completa o consultanos directamente por WhatsApp para recibir atención personalizada.</p>
                 <div class="download-buttons-container">
-                    <a href="catalogo/ListaPreciosJunio2026.xlsx" class="btn btn-outline" download>
+                    <a href="catalogo/ListaPreciosAgosto2026.xlsx" class="btn btn-outline" download>
                         Descargar Excel
                     </a>
                     <a href="https://wa.me/5491133143989" class="btn btn-whatsapp" target="_blank" rel="noopener noreferrer">
@@ -105,25 +105,6 @@
     <script src="productos.js"></script>
     <script>
         document.getElementById('current-year').textContent = new Date().getFullYear();
-    </script>
-
-    <!-- POPUP PROMOCIONAL -->
-   <div class="modal-overlay" id="promoModal">
-      <div class="modal">
-        <button class="modal-close" onclick="closeModal()">×</button>
-        <img src="catalogo/publicidad.png" alt="Promoción Especial">
-      </div>
-    </div>
-
-    <script>
-        function closeModal() {
-            document.getElementById("promoModal").style.display = "none";
-        }
-        window.addEventListener("load", () => {
-            setTimeout(() => {
-                document.getElementById("promoModal").style.display = "flex";
-            }, 1200);
-        });
     </script>
 </body>
 
